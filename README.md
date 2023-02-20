@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# 21.odin_shopping_cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Task Description](https://www.theodinproject.com/lessons/node-path-javascript-shopping-cart)
 
-## Available Scripts
+[Live Preview](https://maxim55069633.github.io/21.odin_shopping_cart/)
 
-In the project directory, you can run:
+In this project, I practice client-side routing and react testing. I build a shopping cart where customers can select products and add them to the cart. 
 
-### `npm start`
+I learn:
+1. `<Outlet />` is the placeholder location for where the nested children routes will be rendered.
+2. The difference between calling a function and passing it as a callback in event handler.
+3. Use ChatGPT to generate an aboutus page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+sample:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![sample](./src//images/sample.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I use the following images from bing under the license: free to share and use
+1. [monopoly](https://cn.bing.com/images/search?view=detailV2&ccid=QBfuJSA4&id=27B6946CE88D0B45F8A890B4564BBB652ECF5D92&thid=OIP.QBfuJSA43svDm5dg0RoSkQHaKd&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.4017ee252038decbc39b9760d11a1291%3frik%3dkl3PLmW7S1a0kA%26riu%3dhttp%253a%252f%252fwiki.dolphin-emu.org%252fimages%252f4%252f42%252fMonopoly_wii.jpg%26ehk%3dOqXXSTM4L091rVZBjmY310CdoCvBSF6pBNjahHqblVI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=904&expw=640&q=monopoly&simid=608033546985429218&FORM=IRPRST&ck=A7B4EA398BB4845863C0197C29354580&selectedIndex=0&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+2. [eldritch horror](https://cn.bing.com/images/search?view=detailV2&ccid=em4JZgv8&id=C474F4D504A9269B15EBE3CEC4639915C55B737E&thid=OIP.em4JZgv8Aky08Brgu5ozwQHaF9&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.7a6e09660bfc024cb4f01ae0bb9a33c1%3frik%3dfnNbxRWZY8TO4w%26riu%3dhttp%253a%252f%252fislaythedragon.com%252fwp-content%252fuploads%252f2014%252f05%252feldritchhorror_boxcover.jpg%26ehk%3dkHH1oWzQ9aAbS4pxm4k86ia8%252fYl2FXIC9YRVx8z%252bG3M%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1287&expw=1600&q=eldritch+horror&simid=608037163338171188&FORM=IRPRST&ck=4DE9468057FD6954191A78C660F23092&selectedIndex=0&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+3. [yugioh](https://cn.bing.com/images/search?view=detailV2&ccid=SARu0nRb&id=E1535CC61ADAF5F3C0F2862F53A955D5A4FF0D6E&thid=OIP.SARu0nRbTxTSF1on66lD8QHaEK&mediaurl=https%3a%2f%2f17kgroup.it%2fwp-content%2fuploads%2f2019%2f08%2fcropped-Yu-Gi-Oh.jpg&exph=742&expw=1320&q=yu-gi-oh&simid=608050348892756383&FORM=IRPRST&ck=2CA9178CC6249AA8DB705BDC6A212A0B&selectedIndex=134&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+4. [Chinese checker](https://cn.bing.com/images/search?view=detailV2&ccid=IUPN6b3Y&id=C4E816A85361AAC83291465F6D29DA0A0FF4BAFC&thid=OIP.IUPN6b3Yk9c7JojLgW7sTAHaFL&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.2143cde9bdd893d73b2688cb816eec4c%3frik%3d%252fLr0DwraKW1fRg%26riu%3dhttp%253a%252f%252fgadgetsin.com%252fuploads%252f2020%252f05%252fhandmade_wooden_chinese_checkers_set_2.jpg%26ehk%3d76isPGxNS3EkYiuzEARrkHcY7VW%252f%252fM9xaiopu91ng9U%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=420&expw=600&q=Chinese+checker&simid=608048712504802717&FORM=IRPRST&ck=5291B76E4A01E7E3EFDAA5AADED2AAEA&selectedIndex=0&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+5. [battleship](https://cn.bing.com/images/search?view=detailV2&ccid=%2ffvAHYX%2b&id=34914B1E0316FD029C134C6F4E9BB5021193A5C4&thid=OIP._fvAHYX-XdprsXA_SnyazwHaGQ&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.fdfbc01d85fe5dda6bb1703f4a7c9acf%3frik%3dxKWTEQK1m05vTA%26riu%3dhttp%253a%252f%252fwww.lovedesigner.net%252fwp-content%252fimages%252fstories%252fbattleship%252fBattleship-game-Hasbro.jpg%26ehk%3dDTJD3ovOQ8f0MtEnjYuyxAOGU%252fUfBrSXHKIMh%252bTJkkA%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=304&expw=360&q=battleship+game&simid=607990090510379275&FORM=IRPRST&ck=4C3C50840E24EDDDD7024BB141C3957F&selectedIndex=6&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+6. [gomuku](https://cn.bing.com/images/search?view=detailV2&ccid=2dU4lYAN&id=03EF8E1C4F5127156E18E0E7C93458B52B196FB9&thid=OIP.2dU4lYANmrNmCJWq26uQ6QHaE8&mediaurl=https%3a%2f%2fcdn.jiler.cn%2ftechug%2fuploads%2f2018%2f07%2f15326716450814973950367.gif&exph=427&expw=640&q=gomoku&simid=607996017541777500&FORM=IRPRST&ck=8B925C666E3466BE9C9E977C0E992092&selectedIndex=0&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
+7. [dice](https://cn.bing.com/images/search?view=detailV2&ccid=O2dXwjnZ&id=E380F8827E22A6414354BF500D53ABBDB90EB241&thid=OIP.O2dXwjnZ7bIrbrzQbo-BSAHaHk&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.3b6757c239d9edb22b6ebcd06e8f8148%3frik%3dQbIOub2rUw1Qvw%26riu%3dhttp%253a%252f%252fpngimg.com%252fuploads%252fdice%252fdice_PNG140.png%26ehk%3dzhsVEOxepYSODkeXYUY7FC7SD2FyAC7d%252bxiH6KqyvOo%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1098&expw=1074&q=dice+favicon&simid=608013811600487229&FORM=IRPRST&ck=7B95C967EEF8AEA592C0002AB7A46224&selectedIndex=32&qft=+filterui%3alicense-L2_L3_L4_L5_L6_L7&ajaxhist=0&ajaxserp=0)
