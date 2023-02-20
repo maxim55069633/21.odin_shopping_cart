@@ -113,7 +113,7 @@ const RouteSwitch = () => {
   )
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="public.env.PUBLIC_URL">
       <Routes>
         <Route path="/" element={<MainLayout/>} >
           <Route path="aboutus" element={<AboutUs />} />
