@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./Components/MainLayout";
 import AboutUs from "./Components/AboutUs";
 import ShopPage from "./Components/ShopPage";
@@ -113,7 +113,7 @@ const RouteSwitch = () => {
   )
 
   return (
-    <BrowserRouter basename="/21.odin_shopping_cart" >
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainLayout/>} >
           <Route path="aboutus" element={<AboutUs />} />
@@ -132,7 +132,7 @@ const RouteSwitch = () => {
               />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
