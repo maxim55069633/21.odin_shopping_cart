@@ -113,7 +113,7 @@ const RouteSwitch = () => {
   )
 
   return (
-    <BrowserRouter basename="public.env.PUBLIC_URL">
+    <BrowserRouter basename="/21.odin_shopping_cart" >
       <Routes>
         <Route path="/" element={<MainLayout/>} >
           <Route path="aboutus" element={<AboutUs />} />
